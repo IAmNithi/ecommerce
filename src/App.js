@@ -4,8 +4,8 @@ import Header from './Components/Header';
 function App() {
   return (
     <div className="App">
+    <Header />
       <div className="container">
-      <Header />
       <h1>Under Construction</h1>
     </div>
     </div>

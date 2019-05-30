@@ -71,3 +71,21 @@ border-bottom-style: solid;
   text-decoration: none;
   color: black;
 }
+
+/* Add Banner Css */
+.AddBanner{
+  background: #05a;
+  text-align: center;
+  color: #ffffff;
+  padding: 2.5rem 0;
+}
+.add-text{
+  font-weight: 700;
+}
+.online-card{
+  background: rgb(130, 230, 225);
+  color: #05a;
+  padding: 10px 20px;
+  font-weight: 600; 
+  display: block;
+}

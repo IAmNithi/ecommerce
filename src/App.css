@@ -2,6 +2,9 @@
   padding: 0 !important;
   margin: 0 !important;
 }
+.centered-content{
+  margin: auto 0 !important;
+}
 /* Header css */
 .header{
 border-color: #d6d6d6;
@@ -98,9 +101,15 @@ border-bottom-style: solid;
 .slider-main{
   padding: 2rem 0;
 }
+.slider-border{
+  border-radius: 7px;
+  border: 1px solid #ffffff;
+  overflow: hidden;
+}
 .slider-corosal{
   width: 100%;
-  background: #DBDFE2;
+  background: #121217;
+  color: #ffffff;
 }
 .slider-img{
   width: 100%;

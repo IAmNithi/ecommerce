@@ -12,6 +12,7 @@ export default class AddBanner extends Component {
                         <div className="col-md-3 col-sm-12 col-xs-12">
                             <span className="online-card">Online Only</span>
                         </div>
+                        
                     </div>
                 </div>
             </div>

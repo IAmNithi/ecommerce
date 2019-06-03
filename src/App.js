@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import AddBanner from './Components/AddBanner';
 import Slider from './Components/Slider';
 import TopDeal from './Components/TopDeal';
+import FeatureDeal from './Components/FeatureDeal';
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <AddBanner />
       <Slider />
       <TopDeal />
+      <FeatureDeal />
     </div>
   );
 }

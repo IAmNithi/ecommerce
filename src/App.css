@@ -133,6 +133,7 @@ border-bottom-style: solid;
 /* feature deal css */
 .product-card{
   cursor: pointer;
+  text-align: center;
 }
 .prd-card:hover{
   border-radius: 5px;

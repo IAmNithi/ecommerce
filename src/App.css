@@ -146,3 +146,11 @@ border-bottom-style: solid;
 .card-image{
   height: 160px;
 }
+.price{
+  color: #B12704;
+  font-weight: 700;
+}
+.product-desc:hover{
+  color: #05a;
+  text-decoration: underline;
+}

@@ -130,3 +130,18 @@ border-bottom-style: solid;
 .deal-text-content{
   margin: auto 0;
 }
+/* feature deal css */
+.product-card{
+  cursor: pointer;
+}
+.prd-card:hover{
+  border-radius: 5px;
+    box-shadow: 0 2px 10px 0 rgba(138,168,230,.2);
+    transition: box-shadow .3s ease,-webkit-transform .3s ease;
+    transition: transform .3s ease,box-shadow .3s ease;
+    transition: transform .3s ease,box-shadow .3s ease,-webkit-transform .3s ease;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.card-image{
+  width: 100%;
+}

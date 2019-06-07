@@ -98,22 +98,85 @@ border-bottom-style: solid;
 }
 
 /* Slider css */
-.slider-main{
-  padding: 2rem 0;
-}
-.slider-border{
-  border-radius: 7px;
-  border: 1px solid #ffffff;
-  overflow: hidden;
-}
-.slider-corosal{
+.cssSlider {
   width: 100%;
-  background: #121217;
-  color: #ffffff;
+	height: 400px;
+	overflow: hidden;
+	border: 10px solid #666;
 }
-.slider-img{
-  width: 100%;
-  height: 450px;
+
+.sliderImages {
+	width : 55000px;
+	height: 400px;
+	overflow: hidden;
+	
+	/* animation duration: 16s : 5x ~3s display image + 5x ~0.2s slide */
+	animation: slide 16s infinite;
+	-moz-animation: slide 16s infinite;
+	-webkit-animation: slide 16s infinite;
+	-o-animation: slide 16s infinite;
+}
+
+.sliderImages img {
+	float: left;
+}
+.si{
+  width: 1360px;
+}
+.clear{
+  clear:left;
+}
+@keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	20%{margin-left: -1360px;}
+	37%{margin-left: -1360px;}
+	40%{margin-left: -2720px;}
+	57%{margin-left: -2720px;}
+	60%{margin-left: -4080px;}
+	77%{margin-left: -4080px;}
+	80%{margin-left: -5400px;}
+	100%{margin-left: -5400px;}
+  100%{margin-left: 0px;}
+}
+
+@-moz-keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	20%{margin-left: -1360px;}
+	37%{margin-left: -1360px;}
+	40%{margin-left: -2720px;}
+	57%{margin-left: -2720px;}
+	60%{margin-left: -4080px;}
+	77%{margin-left: -4080px;}
+	80%{margin-left: -5400px;}
+	100%{margin-left: -5400px;}
+}
+
+@-webkit-keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	20%{margin-left: -1360px;}
+	37%{margin-left: -1360px;}
+	40%{margin-left: -2720px;}
+	57%{margin-left: -2720px;}
+	60%{margin-left: -4080px;}
+	77%{margin-left: -4080px;}
+	80%{margin-left: -5400px;}
+	100%{margin-left: -5400px;}
+}
+
+@-o-keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	20%{margin-left: -1360px;}
+	37%{margin-left: -1360px;}
+	40%{margin-left: -2720px;}
+	57%{margin-left: -2720px;}
+	60%{margin-left: -4080px;}
+	77%{margin-left: -4080px;}
+	80%{margin-left: -5400px;}
+	100%{margin-left: -5400px;}
 }
 
 /* Top Deal Css */

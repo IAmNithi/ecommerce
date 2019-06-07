@@ -3,23 +3,18 @@ import React, { Component } from 'react'
 export default class Slider extends Component {
     render() {
         return (
-            <div className="slider">
+            <div className="slider mb-3 mt-3">
                 <div className="container">
-                    <div className="slider-main">
-                        <div className="col-12 no-padding slider-border">
-                        <div className="slider-corosal text-center">
-                        <div className="row">
-                                    <div className="col-md-4 no-padding centered-content">
-                                        <h2>MacBook Pro</h2>
-                                        <p>More power. More performance. More pro.</p>
-                                    </div>
-                                    <div className="col-md-8 no-padding">
-                                        <img src="https://www.apple.com/v/mac/home/af/images/overview/hero/macbook_pro__c6uspyy0f8sy_large_2x.jpg" className="slider-img"/>
-                                    </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
+                <div className="cssSlider">
+  <div className="sliderImages">
+		<img className="si" src="https://i5.walmartimages.com/dfw/4ff9c6c9-f2ac/k2-_57d59503-fccd-4dd4-9d8e-dbebd553161d.v1.jpg?odnWidth=1360&odnHeight=600&odnBg=ffffff" alt="" />
+		<img className="si" src="https://i5.walmartimages.com/dfw/4ff9c6c9-f467/k2-_b8fbc884-ba9a-4bab-8b9b-107fa072f28f.v1.jpg?odnWidth=1360&odnHeight=410&odnBg=ffffff" alt="" />
+		<img className="si" src="https://i5.walmartimages.com/dfw/4ff9c6c9-e3cd/k2-_4603366a-f460-42f5-8e2a-208bc96b1554.v1.jpg?odnWidth=1360&odnHeight=410&odnBg=ffffff" alt="" />
+		<img className="si" src="https://cmsimages.jetcdn.net/dfw/8374fc7d-c848/k2-_32726f74-c232-49c0-952b-1ec8e1e3969c.v1.jpg?odnBound=3000" alt="" />
+		<img className="si" src="https://i5.walmartimages.com/dfw/4ff9c6c9-2bbb/k2-_63dfd4ed-b1a7-4354-bd1d-8d22667162ad.v1.jpg?odnWidth=1360&odnHeight=410&odnBg=ffffff" alt="" />
+		<div className="clear"></div>
+	</div>
+</div>
                 </div>
             </div>
         )

@@ -232,11 +232,19 @@ border-bottom-style: solid;
 }
 .trending-text{
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
   font-weight: 700;
+}
+.trending-text h5{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .trending-text > p:hover{
   cursor: pointer;
   color: #05a;
   text-decoration: underline;
+}
+.mt-even{
+  margin-top: 100px;
+}
+.mt-odd{
+  margin-top: 50px;
 }

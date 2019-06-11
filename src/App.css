@@ -224,3 +224,19 @@ border-bottom-style: solid;
   color: #05a;
   text-decoration: underline;
 }
+
+/* trending css */
+.img-trending{
+  width: 100%;
+  border-radius: 8px;
+}
+.trending-text{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+.trending-text > p:hover{
+  cursor: pointer;
+  color: #05a;
+  text-decoration: underline;
+}

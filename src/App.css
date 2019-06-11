@@ -229,6 +229,7 @@ border-bottom-style: solid;
 .img-trending{
   width: 100%;
   border-radius: 8px;
+  height: 180px;
 }
 .trending-text{
   text-align: center;

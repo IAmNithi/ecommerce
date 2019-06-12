@@ -226,6 +226,9 @@ border-bottom-style: solid;
 }
 
 /* trending css */
+.trending-content{
+  cursor: pointer;
+}
 .img-trending{
   width: 100%;
   border-radius: 8px;

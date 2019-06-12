@@ -246,9 +246,11 @@ border-bottom-style: solid;
   color: #05a;
   text-decoration: underline;
 }
-.mt-even{
-  margin-top: 100px;
-}
-.mt-odd{
-  margin-top: 50px;
+@media screen and (min-width: 650px) {
+  .mt-even{
+    margin-top: 100px;
+  }
+  .mt-odd{
+    margin-top: 50px;
+  }
 }

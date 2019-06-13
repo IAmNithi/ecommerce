@@ -256,3 +256,18 @@ border-bottom-style: solid;
 }
 
 /* Brands Css */
+.brand-logo{
+  text-align: center;
+  margin: .75rem 0;
+  cursor: pointer;
+}
+.brand-logo-img{
+  height: 2rem;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  transition: filter .3s ease-in-out;
+}
+.brand-logo-img:hover{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}

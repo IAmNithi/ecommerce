@@ -6,6 +6,7 @@ import Slider from './Components/Slider';
 import TopDeal from './Components/TopDeal';
 import FeatureDeal from './Components/FeatureDeal';
 import Trending from './Components/Trending';
+import Brands from './Components/Brands';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <TopDeal />
       <FeatureDeal />
       <Trending />
+      <Brands />
     </div>
   );
 }

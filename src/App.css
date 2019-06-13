@@ -262,7 +262,7 @@ border-bottom-style: solid;
   cursor: pointer;
 }
 .brand-logo-img{
-  height: 2rem;
+  height: 3rem;
   -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);
   transition: filter .3s ease-in-out;

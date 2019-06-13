@@ -5,7 +5,7 @@ export default class Brands extends Component {
         return (
             <div className="brands mb-3">
                 <div className="container">
-                    <h3 className="text-center">Brands</h3>
+                    <h3 className="text-center">Explore our Other Brands</h3>
                     <div className="row">
                         <div className="col-md-2">
                             <div className="brand-logo">

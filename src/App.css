@@ -267,7 +267,17 @@ border-bottom-style: solid;
   filter: grayscale(100%);
   transition: filter .3s ease-in-out;
 }
+.brand-logo-img2{
+  width: 8rem;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  transition: filter .3s ease-in-out;
+}
 .brand-logo-img:hover{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+.brand-logo-img2:hover{
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
 }

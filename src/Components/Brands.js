@@ -19,7 +19,7 @@ export default class Brands extends Component {
                         </div>
                         <div className="col-md-2">
                             <div className="brand-logo">
-                                <img src="https://pridefamilybrands.com/wp-content/uploads/2015/03/castelle-logo.png" className="brand-logo-img"/>
+                                <img src="https://pridefamilybrands.com/wp-content/uploads/2015/03/castelle-logo.png" className="brand-logo-img2"/>
                             </div>
                         </div>
                         <div className="col-md-2">
@@ -29,7 +29,7 @@ export default class Brands extends Component {
                         </div>
                         <div className="col-md-2">
                             <div className="brand-logo">
-                                <img src="https://www.tajhotels.com/content/dam/tajhotels/logos/taj-logos/Khazana-Logo%20gold.png" className="brand-logo-img"/>
+                                <img src="https://www.tajhotels.com/content/dam/tajhotels/logos/taj-logos/Khazana-Logo%20gold.png" className="brand-logo-img2"/>
                             </div>
                         </div>
                         <div className="col-md-2">

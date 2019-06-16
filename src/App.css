@@ -199,6 +199,7 @@ border-bottom-style: solid;
 }
 .deal-text-content{
   margin: auto 0;
+  text-align: center;
 }
 /* feature deal css */
 .product-card{

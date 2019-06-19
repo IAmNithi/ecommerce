@@ -5,7 +5,11 @@ export default class Footer extends Component {
         return (
             <div className="footer">
                 <div className="container">
-                this is footer
+                    <div className="row">
+                        <div className="col-md-4"></div>
+                        <div className="col-md-4"></div>
+                        <div className="col-md-4"></div>
+                    </div>
                 </div>
             </div>
         )

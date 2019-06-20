@@ -284,3 +284,7 @@ border-bottom-style: solid;
 }
 
 /* footer css */
+.footer{
+  margin-top: 2rem;
+  border-top: 1px solid #d6d6d6;
+}

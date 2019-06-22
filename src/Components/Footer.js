@@ -18,7 +18,23 @@ export default class Footer extends Component {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-4"></div>
+                        <div className="col-md-4">
+                        <div className="footer-cnt">
+                                <h4>Shipping and Returns</h4>
+                                <ul>
+                                    <li>Ship To</li>
+                                    <li>Shipping Info</li>
+                                    <li>Reserve Online, Pick up In-Store</li>
+                                    <li>Same Day Delivery</li>
+                                    <li>International Shipping</li>
+                                    <li>Returns</li>
+                                    <li>Product Recall Information</li>
+                                    <li>Welspun Returns</li>
+                                    <li>Rebates</li>
+                                    <li>Price Match Promise</li>
+                                </ul>
+                            </div>
+                        </div>
                         <div className="col-md-4"></div>
                     </div>
                 </div>

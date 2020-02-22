@@ -7,14 +7,13 @@
 }
 /* Header css */
 .header{
-border-color: #d6d6d6;
-border-bottom-style: solid;
   border-bottom-width: 2px;
   background-color: #ffffff;
   position: fixed;
   width: 100%;
   z-index: 999;
   top: 0;
+  box-shadow: 1px 1.7px 21px rgba(56, 56, 56, 0.1);
 }
 .blog-header {
   line-height: 1;
@@ -90,7 +89,7 @@ border-bottom-style: solid;
   text-align: center;
   color: #ffffff;
   padding: 1.5rem 0;
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 .add-text{
   font-weight: 700;
